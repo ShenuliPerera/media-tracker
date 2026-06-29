@@ -13,7 +13,17 @@ def main():
 
         if choice == "1":
             print ("You choose: Add a movie")
-        
+        elif choice == "2":
+            print("You choose : Add a   TV show")
+        elif choice =="3":
+            print("You choose: Add a book")
+        elif choice =="4":
+            print("You choose: View my list")
+        elif choice == "5":
+            print("Goodbye!")
+            break
+        else:
+            print("Invalid choice please try again")
 
 
-show_menu()
+main()
